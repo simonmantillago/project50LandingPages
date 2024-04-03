@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body{
+    background-color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+}
+.boton{
+    background-color:#252525;
+    padding: 10px 40px 10px 40px;
+    font-size: 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+.mainTxt{
+    text-align: center;
+}
+  .grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform .3s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+
+  .grid-item:hover{
+    filter:opacity(.9);
+    transform: scale(1.025);
+    box-shadow: 1px 3px 6px 2px #373739;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap:20px;
+    padding: 20px;
+    grid-auto-flow: dense;
+  }
