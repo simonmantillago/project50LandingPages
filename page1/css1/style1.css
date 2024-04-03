@@ -38,7 +38,12 @@
     background-repeat: no-repeat;
     
   }
-
+  .boton:hover{
+    filter:opacity(.9);
+    transform: scale(1.025);
+    box-shadow: 1px 3px 6px 2px #373739;
+  }
+  
   .grid-item:hover{
     filter:opacity(.9);
     transform: scale(1.025);
