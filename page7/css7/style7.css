@@ -14,7 +14,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    padding: 35px ;
+    
 }
 
 .title h1{
@@ -25,13 +26,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* Añadido para distribuir el espacio entre el texto y la imagen */
+    justify-content: space-between; 
     margin-bottom: 20px;
 }
 
 .main-txt {
-    text-align: left; /* Alinear el texto a la izquierda */
+    text-align: left; 
+    font-size: 1.4rem;
 }
+.main-txt h3{
+    opacity: 50% ;
+    font-weight: 550;
+}
+
 
 .image-info {
     text-align: center;
@@ -39,7 +46,7 @@ body{
 }
 
 .image-info img {
-    max-width: 100%; /* Ajustar el tamaño máximo de la imagen */
+    max-width: 100%;
     height: auto;
     
 }
@@ -55,4 +62,26 @@ body{
     font-size: 0.6em;
     
 }
+
+@media (min-width: 600px) {
+    .title{
+        align-self: left;
+    }
+    .title h1{
+        text-align: left;
+        
+        font-size: 4.7rem;
+        font-weight: 600;
+    }
+    .cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cards{
+        padding: 20px;
+    }
+}
+
 
