@@ -105,6 +105,8 @@
     .left{
         grid-column-start: 1;
         gap:35px;
+        display: flex;
+        align-self: center;
     }
     .left_down{
         display:flex;
@@ -117,17 +119,17 @@
         width: 100%; 
     }
     .title{
-        font-size: clamp(1em,4vw,4rem);
+        font-size: clamp(1em,4vw,9rem);
         font-weight: bold;
     }
     .text_main{
-        font-size: clamp(1em,1.5vw,2rem);
+        font-size: clamp(1em,1.5vw,9rem);
     }
     .buttons{
-        font-size: clamp(1em,1.7vw,2rem);
+        font-size: clamp(1em,1.7vw,9rem);
     }
     .text_icon{
-        font-size: clamp(1em,1.5vw,2rem);
+        font-size: clamp(1em,1.5vw,9rem);
     }
     .icon{
         display: flex;
@@ -142,10 +144,10 @@
     }
     .right_txt1{
         top:25%;
-        font-size: clamp(1em,1.7vw,1.8rem);
+        font-size: clamp(1em,1.7vw,6rem);
     }
     .right_txt2{
         bottom: 22%;
-        font-size: clamp(1em,1.7vw,1.8rem);
+        font-size: clamp(1em,1.7vw,6rem);
     }
 }
