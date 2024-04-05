@@ -56,6 +56,7 @@
     border-radius: 10px;
     padding: 25px;
     width: 100%;
+    margin-bottom: 30px;
 }
 .text_icon{
     text-align: center;
@@ -69,6 +70,7 @@
 
 .img{
     width: 100%;
+    height: 100%;
 }
 .right{
     position: relative;
@@ -91,4 +93,59 @@
     border-radius: 5px;
     padding: 10px 20px;
     bottom: 12%;
+}
+@media (min-width:700px) {
+    .container{
+        padding: 5%;
+        padding-top: 1%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:20px;
+    }
+    .left{
+        grid-column-start: 1;
+        gap:35px;
+    }
+    .left_down{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 20px;
+        width: 100%; 
+    }
+    .title{
+        font-size: clamp(1em,4vw,4rem);
+        font-weight: bold;
+    }
+    .text_main{
+        font-size: clamp(1em,1.5vw,2rem);
+    }
+    .buttons{
+        font-size: clamp(1em,1.7vw,2rem);
+    }
+    .text_icon{
+        font-size: clamp(1em,1.5vw,2rem);
+    }
+    .icon{
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+    }
+    .right{
+        padding: 10%;
+        padding-top: 0%;
+        grid-column-start: 2;
+
+    }
+    .right_txt1{
+        top:25%;
+        font-size: clamp(1em,1.7vw,1.8rem);
+    }
+    .right_txt2{
+        bottom: 22%;
+        font-size: clamp(1em,1.7vw,1.8rem);
+    }
 }
