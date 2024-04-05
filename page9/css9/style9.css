@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
+    background:#C8CCCF;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.container{
+    padding:64px;
+    
+}
+
+.bottom-txt{
+    display: flex;
+    flex-direction: row;
+}
