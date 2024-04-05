@@ -10,7 +10,7 @@ body{
     padding: 3%;
     font-family: "Poppins", sans-serif;
 }
-.right{
+.left{
     display: flex;
     flex-direction: column;
     gap:5vh;
@@ -45,7 +45,7 @@ body{
     
 }
 
-.left{
+.right{
     padding-top: 15%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(110px,1fr));
@@ -64,10 +64,10 @@ img{
     }
     .right{
         
+        padding-top: 0;
         width: 50%;
     }
     .left{
-        padding-top: 0;
         width: 50%;
     }
     .title{
