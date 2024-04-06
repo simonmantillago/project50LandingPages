@@ -142,7 +142,7 @@ img{
     .up_rigth{
         padding-top: 5%;
         width: 50;
-        gap:50px
+        gap:50px;
     }   
     .up_rigth_left{
         width: 50%;
@@ -159,7 +159,8 @@ img{
         width: 50%;
     }
     .bot_rigth{
-        align-self: flex-end;
+        position: absolute;
+        bottom: 0;
     }
 
     .photo{    
@@ -168,7 +169,7 @@ img{
     .text_down{
         width: 80%;
         text-align: justify;
-        font-size: clamp(1em,2vw,2.5em);
+        font-size: clamp(0.5em,1.5vw,2em);
 
     }
 
