@@ -16,7 +16,6 @@ body{
     justify-content: center;
     align-items: center;
     gap:50px;
-    position: relative;
 }
 .up{
     display: flex;
@@ -88,7 +87,8 @@ body{
     display: none;
 }
 .horse{
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top:0px;
+    right: 0;
     z-index: 0;
 }
