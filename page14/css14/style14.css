@@ -50,10 +50,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
     gap:20px;
-    width: 50%;
+    width: 60%;
     align-self: center;
 }
 .box{
@@ -70,20 +70,21 @@ body{
     text-align: center;
     font-size: 1.2em;
 }
-.rigth{
+.right{
     position: relative;
     width: 100%;
+    height: max-content;
 }
 .big_img{
     padding-top: 50px;
-    padding-left: 5%;
-    width: 100%;
+    padding-left: 10%;
+    width: 90%;
 }
 .star1{
     position: absolute;
     z-index: 10;
     width: 25%;
-    bottom: -230px;
+    top:0px;
     left: 5%;
 }
 .star2{
@@ -91,5 +92,65 @@ body{
     z-index: 10;
     width: 25%;
     right: 5%;
-    bottom: -560px;
+    bottom: 0;
+}
+@media(min-width:600px){
+    .container{
+        padding: 5%;
+        flex-direction: row;
+        gap:0px;
+        padding-top: 1.5vh;
+    }
+    .bot_left{
+        width: 100%;
+        flex-direction: row;
+        padding-right: 0;
+        justify-content: space-around;
+    }
+    .box{
+        align-items: flex-start;
+        width: 20%;
+    }
+    .box_title{
+        align-self: flex-start;
+        text-align: left;
+        font-size: 1rem;
+    }
+    .box_txt{
+        text-align: left;
+        font-size: clamp(0.5em, 1vw, 2em);
+    }
+    .left{
+        justify-content: center;
+        width: 50%;
+        padding-right: 0;
+    }
+    .up_left{
+        width: 75%;
+        align-items: flex-start;
+    }
+    .title{
+        font-size: clamp(2em, 3.5vw,5em);
+        text-align: left;
+    }
+    .right{
+        left: -2vw;
+        justify-content: center;
+        width: 45%;
+        padding-left: 0;
+        display: flex;
+        align-items: center;
+    }
+    .big_img{
+        width: 100%;
+        padding-left: 0;
+    }
+    .star1{
+        top:0vw;
+        left: -2vw;
+    }
+    .star2{
+        bottom: 3vw;
+        right:0vw;
+    }
 }
