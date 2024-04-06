@@ -141,8 +141,8 @@ img{
     }
     .up_rigth{
         padding-top: 5%;
-        width: 50;
         gap:50px;
+        height: 90%;
     }   
     .up_rigth_left{
         width: 50%;
