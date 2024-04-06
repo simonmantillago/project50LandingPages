@@ -109,3 +109,76 @@ img{
 .star_2{
     display: none;
 }
+@media (min-width:600px) {
+    body{
+        width: 100vw;
+    }
+    .container{
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+    }
+    .left{
+        width: 45%;
+        flex-direction: column;
+    }
+    .up_left{
+        align-items: flex-start;
+    }
+    .title{
+        font-size: clamp(2em,5vw,9em);
+    }
+    .txt_main{
+        font-size: clamp(1em,2vw,4em);
+        width: 80%;
+    }
+    .buttom{
+        font-size: clamp(1em,2vw,4em);
+    }
+    .rigth{
+        width: 45%;
+        gap:50px;
+    }
+    .up_rigth{
+        padding-top: 5%;
+        width: 50;
+        gap:50px
+    }   
+    .up_rigth_left{
+        width: 50%;
+        justify-content: center;
+    }
+    .waves{
+        height: max-content;
+        z-index: 2;
+        position: relative;
+        right: 7vw;
+        top:-4vh;
+    }
+    .up_rigth_rigth{
+        width: 50%;
+    }
+    .bot_rigth{
+        align-self: flex-end;
+    }
+
+    .photo{    
+        width: 20%;
+    }
+    .text_down{
+        width: 80%;
+        text-align: justify;
+        font-size: clamp(1em,2vw,2.5em);
+
+    }
+
+    .star_2{
+        display: block;
+        width: 20%;
+        position: absolute;
+        z-index: 8;
+        left:40%;
+        top:40%;
+        
+    }
+}
