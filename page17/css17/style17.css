@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+  
+body{
+    background-color: #F2F2F2;
+    font-family: 'Poppins';
+    color: #252525;
+}
+
+.container{
+    padding: 20px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.main-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.main-txt h1{
+    font-size: 2.5em;
+}
+.main-txt p {
+    font-size: 0.7em;
+}
+
+.boton{
+    background-color:#252525;
+    padding: 10px 40px 10px 40px;
+    font-size: 1em;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffff;
+    width: max-content;
+    align-self: center;
+    font-family: 'Poppins';
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+.box-item{
+    display: flex;
+    flex-direction: column;
+    text-align:left ;
+    gap:10px;
+}
+
+.box-item hr{
+    width: 24%;
+    height: 5px;
+    background-color: black;
+    border-radius: 3px;
+}
+.box-item p{
+    opacity:70% ;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.middle img {
+    position: absolute;
+    width: 50vh;
+    bottom:-70px;
+    z-index: -1;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+.down img{
+    width: 40vh;
+}
+
+@media (min-width: 750px) {
+    .box{
+        flex-direction: row;
+        width: max-content;
+        align-items: center;
+        padding:30px 40px 30px 40px ;
+        gap: 7vh;
+    }
+    .box-item{
+        font-size: clamp(0.5rem, 1vw,1rem);;
+    }
+    .up h1{
+        font-size: clamp(4rem, 5vw,5rem);
+        font-weight: 500;
+    }
+
+    .up-txt{
+        font-size: clamp(1.2rem, 1.5vw,1.9rem);
+    }
+    .middle img {
+        position: absolute;
+        width: max-content;
+        top: -120px;
+        z-index: -1;
+    }
+    .up{
+        padding-bottom: 48vh;
+    }
+    .down{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+        padding-bottom: 20px;
+    }
+    .down img{
+        width: 45vh;
+    }
+}

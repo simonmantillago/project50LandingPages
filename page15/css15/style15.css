@@ -61,7 +61,7 @@ body{
     
 }
 .middle-img{
-    height: 120vw;
+    width: 70vw;
     padding: 20px 0 20px 0 ;
 }
 
@@ -114,10 +114,10 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        gap:10vh;
+        gap:7vh;
     }
     .middle-img{
-        height: 42vw;
+        width: 25vw;
     }
 
     .left-section{
