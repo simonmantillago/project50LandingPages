@@ -24,13 +24,14 @@ body{
 }
 .color_yellow{
     color: #E3B635;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0);
 }
 .title{
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 3em;
     font-weight: bold;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255);
 }
 hr{
     border:2px solid black;
@@ -40,7 +41,7 @@ hr{
     color: rgb(0, 0, 0);
     font-size: 1.2em;
     text-align: justify;
-    text-shadow: 1px 1px 10px rgba(255, 255, 255, 5);
+    text-shadow: 1px 1px 5px rgba(255, 255, 255);
 }
 .buttom{
     background-color: #E3B635;
@@ -118,6 +119,56 @@ hr{
     bottom: 0px;
     right: 0px;
 }
-
+@media (min-width:600px) {
+    
+    body{
+        padding-top: 50px;
+    }
+    .yellow{
+        filter: none;
+    }
+    .background{
+        filter: none;
+        width: 50vw;
+    }
+    .main{
+        padding-top: 0;
+        width: 50%;
+    }
+    .up_txt{
+        width: 70%;
+        align-items: flex-start;
+    }
+    .title{
+        text-align: left;
+        font-size: clamp(2em, 5vw, 4rem );
+    }
+    .txt_main{
+        text-align: left;
+        font-size: clamp(1em, 1.5vw, 1.2em);
+    }
+    .buttom{
+        align-self: flex-start;
+    }
+    .big_box{
+        flex-direction: row;
+    }
+    .box{
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+    .box_title{
+        font-size: clamp(1rem, 2vw,1.5rem);
+    }
+    .box_txt{
+        text-align: left;
+        font-size: clamp(0.5em, 1.2vw,1rem);
+    }
+    .asterisk{
+        width: 40%;
+        left: 10%;
+        top:15vh;
+    }
+}
 
 
