@@ -155,11 +155,11 @@ body{
         
     }
     .titles h2{
-        font-size: 4em;
+        font-size: 3.5em;
         font-weight: 500;
     }
     .rigth-para p,.left-para p{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .top-img{
         width: 9vw;
@@ -170,5 +170,14 @@ body{
         bottom: 52%;
         left:8%;
         z-index: -1;
+    }
+}
+
+@media (min-width: 900) {
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap:5vh;
     }
 }
