@@ -93,6 +93,9 @@ body{
 }
 
 @media (min-width:600px) {
+    body{
+        padding-right: 0px;
+    }
     .container{
         background: linear-gradient(to bottom, #061e28, #032b37,#073e41);
         height: 100%;
@@ -112,9 +115,11 @@ body{
     }
     .horse{
         top:0px;
+        right: 0px;
+        padding-right: 0px;
     }
     .img_horse{
-        height: 100%;
+        height: 100vh;
     }
     .box{
         align-items: flex-start;
