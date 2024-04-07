@@ -121,6 +121,7 @@ img{
     .up{
         flex-direction: row;
         justify-content: space-between;
+        padding-bottom: 100px;
     }
     .up_txt{
         width: 40%;
@@ -145,7 +146,7 @@ img{
         padding: 2% 10%;
     }
     .box_txt,.list_txt{
-        font-size: clamp(0.5em, 1.5vw,1rem);
+        font-size: clamp(0.5em, 1.5vw,1.5rem);
     }
     .box_title{
         font-size: clamp(1rem, 2vw,1.5rem);
