@@ -127,8 +127,7 @@ body{
     }
     .box_txt{
         text-align: left;
-        font-size: clamp(0.5em, 1vw,1rem)
-        ;
+        font-size: clamp(0.5em, 1vw,1rem);
     }
     .box_title{
         font-size: clamp(1rem, 2vw,1.5rem);
