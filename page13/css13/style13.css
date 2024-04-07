@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+body{
+    background-color: #ffff;
+    font-family: Times;
+    color: #252525;
+}
+
+.main-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    h4{
+        
+        opacity: 45%;
+    }
+    p{
+        opacity: 80%;
+    }
+}
+
+.img-face{
+    width: 80vw;
+    
+}
+
+.img-explosion{
+    width:30vw ;
+    margin-right: auto;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: url(../img13/Gradient\ bg.png);
+    background-size:cover;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    position: relative;
+    h1{
+        font-size: 4em;
+        font-weight:112 ;
+    }
+    p{
+        color: #252525;
+        opacity: 80%;
+        font-size: 1.2em;
+    }
+}
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    h4{
+        
+        opacity: 45%;
+    }
+    p{
+        opacity: 80%;
+    }
+    
+}
+
+.img-party{
+    margin-left: auto;
+    width: 30vw;
+}
+.boton{
+    background-color:#252525;
+    padding: 10px 40px 10px 40px;
+    font-size: 1em;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffff;
+    width: max-content;
+    align-self: center;
+    font-family: 'Poppins';
+}
+
+.star{
+    position: absolute;
+}
+.pic1{
+    width: 9em;
+    top: 70px;
+    left: -30px;
+}
+
+.pic2{
+    width: 7em;
+    bottom: 90px;
+    right: -60px;
+}
+.bg{
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .main-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .img-face{
+        width: 25vw;
+    }
+    .img-party{
+        width: 19vw;
+        padding: 20px 100px 0px;
+    }
+    .img-explosion{
+        padding: 30px 0 0 100px;
+        width: 13vw;
+    }
+
+    .first-section  {
+        font-size: 1.3em;
+        align-items: self-start; 
+        gap: 0px;
+    }
+    
+    .second-section p{
+        font-size: 1.5em;
+        
+    }
+   .second-section h1{
+        font-size: 7em; 
+   }
+
+   .second-section{
+        padding-top: 130px;
+        gap: 50px;
+        background: unset;
+   }
+   .pic1{
+        width: 15em;
+        top:130px;
+        left: -360px;
+    }
+    .pic2{
+        width: 13em;
+        bottom:130px;
+        right: -370px;
+    }
+    .boton{
+        font-size: 1.4em;
+    }
+
+    .third-section  {
+        font-size: 1.3em;
+        align-items: self-start; 
+        gap: 0px;
+    }
+
+    .bg{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        top: -80px;
+        left: -250px;
+    }
+    
+
+
+    
+
+}
