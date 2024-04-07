@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+body{
+    background-color: #ffff;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 200px;
+    
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+}
+
+.main-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:30px;
+}
+
+.main-txt p{
+    text-align: justify;
+}
+
+.main-txt h2{
+    font-size: 2.5em;
+}
+
+.boton{
+    background-color:#252525;
+    padding: 10px 40px 10px 40px;
+    font-size: 1em;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffff;
+    width: max-content;
+    align-self: center;
+}
+
+
+.images{
+    position: relative;
+    height: 100%;
+   
+    img{
+        position: absolute;
+        width: 200px;
+        top: 43%;
+        left: 50%;
+        transform: translate(-80%, -70%);
+    }
+    #img-top{
+        left: 70%;
+        transform: translate(-60%, -50%);
+    }
+}
+
+.item-container{
+    padding: 20px 0 20px 0;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#252525 ;
+    color: #FFFFFF;
+    border-radius: 30px;
+    gap: 20px;
+    
+}
+
+.bottom-section h3{
+    opacity: 80%;
+    font-size: 1em;
+    font-weight: 500;
+}
+.nube{
+    width:3vw ;
+}
+
+.bottom-section p{
+    font-size: 0.8em;
+}
+
+@media (min-width: 600px) {
+    .main-container{
+        padding: 60px;
+        gap: 120px;
+    }
+    .top-section{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-txt{
+        text-align: left;
+        h2{
+            font-size: 4em;
+            font-weight: 600;
+        }
+        p{
+            font-size: 1.4em; 
+        }
+    }
+    .boton{
+        align-self: self-start;
+    }
+
+    .images{
+        position: relative;
+        height: 100%;
+       
+        img{
+            position: absolute;
+            width: 300px;
+            top: 43%;
+            left: 50%;
+            transform: translate(-170%, -5%);
+        }
+        #img-top{
+            left: 70%;
+            transform: translate(-100%, 30%);
+        }
+    }
+
+    .nube{
+        width: 1vw;
+    }
+
+    .item-container{
+        display: flex;
+        flex-direction: row;
+        gap: 230px;
+        
+    }
+    .bottom-item{
+        padding: 30px 0 20px 0;
+        h3{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.2em;
+        }
+    }
+    
+
+
+    
+    
+}
