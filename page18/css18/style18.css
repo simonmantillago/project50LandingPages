@@ -142,6 +142,7 @@ hr{
     }
     .down{
         flex-direction: row;
+        justify-content: center;
     }
     .down_left_left,.down_right_right{
         width: 40%;
