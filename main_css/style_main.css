@@ -13,7 +13,8 @@
 }
 .title{
     color: black;
-    font-size: clamp(5em,10vw,4em);
+    font-size: clamp(2em,10vw,4em);
+    text-align: center;
 }
 .buttoms{
     
@@ -35,3 +36,7 @@ a:hover{
     background-color: blue;
     scale: 1.1;
 }
+a:active{
+    background-color:greenyellow;
+    color: black;
+}   
