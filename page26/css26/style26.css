@@ -86,5 +86,57 @@ img{
     width: 70vw;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 35px;
-    background: linear-gradient(to right, #ffffff55, rgba(72, 71, 71, 0.444), #00000077);
+    background: linear-gradient(to right, #ffffff55, rgba(45, 44, 44, 0.251), #00000000);
+    backdrop-filter: blur(5px);
+}
+@media (min-width:600px) {
+    body{
+        height: 100vh;
+    }
+    .container{
+        height: 100%;
+        padding-top: 0px;
+    }
+    .up{
+        width: 40vw;
+    }
+    .title{
+        font-size: clamp(2em, 3.2vw, 4rem );
+    }
+    .txt_main{
+        text-align: left;
+        font-size: clamp(1em, 1.5vw, 1.5em);
+    }
+    .buttom{
+        align-self: flex-start;
+    }
+    .bot{
+        flex-direction: row;
+        width: 100%;
+    }
+    .box{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+        height: 10px;
+        font-size: clamp(0.5rem, 2vw,1.5rem);
+        
+
+    }
+
+    .background{
+        height: 100vh;
+        width: 60vw;
+        position: fixed;
+        z-index: -1;
+        top:0vh;
+        right: 0px;
+    }
+    .big_img{
+        height: 100vh;
+    }
+    
 }
