@@ -13,6 +13,10 @@ body{
 }
 .container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
 }
 .up{
     display: flex;
@@ -71,8 +75,12 @@ body{
     width: 100%;
 }
 .down{
-    border-radius: 50px;
+    width: 80%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .img_left,.img_mid_left,.img_mid_right,.img_right{
@@ -86,4 +94,13 @@ body{
     align-items: flex-end;
     justify-content: center;
     padding: 5%;
+    text-align: center;
+}
+.img_left{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.img_right{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
