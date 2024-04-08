@@ -123,8 +123,6 @@ img{
         text-align: center;
         height: 10px;
         font-size: clamp(0.5rem, 2vw,1.5rem);
-        
-
     }
 
     .background{
