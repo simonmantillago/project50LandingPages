@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  }
+
+body{
+    background-color: #F2F2F2;
+    font-family: 'Poppins';
+    color: #FFFFFF; 
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: url(../img21/unsplash_dcPThE8G59E.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 70vh;
+    gap: 10px;
+    
+}
+.top h1{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.top-para p{
+    font-size: 0.8em;
+}
+.boton{
+    background-color:#FFFFFF;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8em;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #252525;
+    width: max-content;
+    align-self: center;
+    font-family: 'Poppins';
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+
+}
+.bottom h3{
+    font-weight: 600;
+}
+.bottom-para{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.item1{
+    background: url(../img21/left.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+.item2{
+    background: url(../img21/Middle.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.item3{
+    background: url(../img21/Right.png);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.bottom-txt{
+    padding: 0 0 30px 30px;
+}
+
+@media (min-width: 650px) {
+    .bottom{
+        flex-direction: row;
+        width: 100%;
+    }
+    .bottom-item{
+        width: 100%;
+    }
+    .bottom-txt{
+        padding: 0 0 50px 50px;
+    }
+    .top{
+        height: 100vh;
+        gap: 30px;
+    }
+    .top h1{
+        font-size: 7em;
+    }
+    .top-para{
+        font-size: 1.8em;
+    }
+    .boton{
+        font-size: 1.5em;
+    }
+    .bottom h3{
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .bottom-para{
+        font-size: 1em;
+        font-weight: 300;
+    }
+    .bottom-txt{
+        padding: 0 0 35px 70px;
+    }
+    
+}
