@@ -29,6 +29,11 @@ body{
     justify-content: center;
     text-align: center;
     gap: 20px;
+    text-shadow: 0 5px 20px white;
+}
+.bobba-png{
+    width:20vi;
+    
 }
 .main-txt h1{
     font-size: 4em;
@@ -58,7 +63,7 @@ body{
     width: 90%;
     gap: 20px;
     background-color: #FFFDFC;
-    border-radius: 60px;
+    border-radius: 80px;
     
 }
 .card-img{
@@ -69,4 +74,82 @@ body{
 }
 .bottom-para{
     font-size: 0.8em;
+}
+.bobba-img{
+    height: 100vh;
+}
+
+.bobba{
+    position: fixed;
+    bottom: 0;
+    right: -20vh;
+    z-index: -2;
+    filter: blur(2px);
+}
+.title{
+    gap: 0;
+}
+@media (min-width: 650px) {
+    .container{
+        gap: 20vh;
+        padding: 90px;
+    }
+    .bottom{
+        flex-direction: row;
+    }
+    .bobba-png{
+        width: 7vi;
+        position: absolute;
+        top: -11vh;
+        left: 3vw;
+    }
+    .card-img{
+        width: 8vw;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        gap:2vw;
+        background-color: #FFFDFC;
+        border-radius: 80px;
+        
+        
+    }
+    .bottom{
+        justify-content: space-between;
+    }.boton{
+        align-self: self-start;
+        font-size: 1.3em;
+    }
+    .up{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        
+    }
+    
+    .main-txt{
+       
+        text-align: left;
+        position: relative;
+    }
+    .main-txt h1{
+        font-size: 6em;
+    }
+    .main-txt p{
+        width: 40%;
+        font-size: 1.3em;
+    }
+    .bobba{
+        
+        filter: blur(0px);
+    }
+    .bottom-txt{
+        font-size: clamp(0.2em,2vw,1em);
+    }
+    
 }
