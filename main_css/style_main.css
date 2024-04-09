@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap:50px;
+}
+.title{
+    color: black;
+    font-size: clamp(2em,10vw,4em);
+    text-align: center;
+}
+.buttoms{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
+    gap:20px;
+    width: 100%;
+}
+a{
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+    scale: 1.1;
+}
+a:active{
+    background-color:greenyellow;
+    color: black;
+}
