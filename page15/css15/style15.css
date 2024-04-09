@@ -109,7 +109,7 @@ body{
     z-index: -1;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
     .main-container{
         display: flex;
         flex-direction: row;
@@ -160,6 +160,7 @@ body{
     }
     .rigth-para p,.left-para p{
         font-size: 1.2em;
+        text-shadow: 1px 1px 5px white;
     }
     .top-img{
         width: 9vw;
@@ -167,7 +168,7 @@ body{
     .star-rigth{
         position: absolute;
         width: 8vh;
-        bottom: 52%;
+        top: 30%;
         left:8%;
         z-index: -1;
     }
