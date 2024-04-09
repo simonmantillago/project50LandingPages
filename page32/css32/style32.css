@@ -149,3 +149,56 @@ img{
     font-weight: bold;
     font-size: 1.5em;
 }
+@media (min-width:600px) {
+    
+    .container{
+        gap:0px
+    }
+    .up{
+        align-items: center;
+        
+    }
+    .up,.big_box{
+        flex-direction: row;
+    }
+    .txt{
+        padding-top: 10px;
+        width: 50%;
+    }
+    
+    .box_txt{
+        text-align: left;
+    }
+    .big_box{
+        width: 90%;
+        padding: 50px;
+    }
+    .title_txt {
+        font-size: clamp(1.2em, 3vw, 4rem );
+    }
+    .star_yellow{
+        top:-10%;
+    }
+    .txt_main {
+        font-size: clamp(1em, 2vw, 1.5em);
+    }
+    .big_img{
+        padding-top: 0;
+        width: 50%;
+        height: max-content;
+    }
+    .big_box{
+        padding: 20px;
+    }
+    .box{
+        gap:5px
+    }
+    .box_title{
+        font-size: clamp(0.5rem, 2.5vw,3rem);
+    }
+    .box_txt{
+        text-align: center;
+        font-size: clamp(0.5rem, 1.5vw,1.5rem);
+    }
+}
+

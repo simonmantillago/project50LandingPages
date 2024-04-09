@@ -40,3 +40,6 @@ a:active{
     background-color:greenyellow;
     color: black;
 }
+a:visited{
+    background-color: white;
+}
