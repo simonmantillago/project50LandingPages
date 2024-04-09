@@ -114,7 +114,7 @@ body{
     display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .main-container{
         flex-direction: row;
         justify-content: space-around;
